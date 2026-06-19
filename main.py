@@ -2,7 +2,8 @@ import discord
 import random
 import asyncio
 
-TOKEN = "TOEKN"
+import os
+TOKEN = os.getenv("TOKEN")
 
 MESSAGE_CHANNEL_ID = 1517496224247447575
 REACTION_CHANNEL_ID = 1517525171269931190
